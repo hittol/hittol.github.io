@@ -2,14 +2,14 @@
 main:
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Home"
+     url: "/"
    - title: "Another"
      url: https://hittol.tistory.com/
-  # - title: "Archive"
-  #   url: /year-archive/
+   - title: "Category"
+     url: /categories/         
   # - title: "tag"
   #  url: /tags/
-  # - title: "Category"
-  #   url: /categories/
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
