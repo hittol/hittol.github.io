@@ -1,8 +1,10 @@
 ---
-layout: post
 title: "Minimal Mistakes 테스트 포스트"
-categories: jekyll
-tags: jekyll, minimal-mistakes
+date: 2024-12-03
+categories:
+  - Test
+Tags:
+  - Test . jekyll
 ---
 
 이것은 **Minimal Mistakes** 테마를 사용한 Jekyll 블로그의 테스트 포스트입니다. 다양한 요소를 테스트하여 테마가 올바르게 작동하는지 확인할 수 있습니다.
