@@ -4,10 +4,10 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Home"
      url: "/"
-   - title: "Another"
-     url: https://hittol.tistory.com/
    - title: "Category"
-     url: /categories/         
+     url: /categories/      
+   - title: "Another"
+     url: https://hittol.tistory.com/       
   # - title: "tag"
   #  url: /tags/
   #   url: /collection-archive/
