@@ -113,11 +113,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hittol"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "왕초보"
+  location         : "Seoul,Korea"
+  email            : "hittol@naver.com"
+  url              : "https://hittol.tistory.com/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -309,6 +310,10 @@ compress_html:
   ignore:
     envs: development
 
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : hittol-github-io
 
 # Defaults
 defaults:
@@ -320,6 +325,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
