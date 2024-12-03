@@ -315,7 +315,11 @@ comments:
   provider               : "disqus"
   disqus:
     shortname            : hittol-github-io
-
+    
+collections:
+  posts:
+    output: true
+    
 # Defaults
 defaults:
   # _posts
