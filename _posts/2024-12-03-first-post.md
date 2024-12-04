@@ -2,7 +2,7 @@
 title: "Minimal Mistakes 테스트 포스트"
 date: 2024-12-03
 categories:
-  - post
+  - sundries
 Tags:
   - Test , jekyll
 toc: true
