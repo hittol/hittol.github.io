@@ -9,7 +9,8 @@ toc: true
 toc_sticky: true
 toc_label: "테스트 포스트"
 ---
-
+<br>
+<br>
 이것은 **Minimal Mistakes** 테마를 사용한 Jekyll 블로그의 테스트 포스트입니다.<br>
 다양한 요소를 테스트하여 테마가 올바르게 작동하는지 확인할 수 있습니다.
 <br>
@@ -23,14 +24,18 @@ toc_label: "테스트 포스트"
 6. [테이블](#테이블)
 
 ---
-   
+<br>
+<br>
+
 ## 머리말
+
 <br>
-<br>
+
 이것은 테스트용 머리말입니다. 여기에는 간단한 소개나 중요한 내용을 요약할 수 있습니다.
 
 > "이 포스트는 다양한 블로그 기능을 테스트하는 데 목적이 있습니다."<br>
-> --- Hittol{: .small}
+> -- Hittol
+{: .small}
    
 <br>
 <br>
@@ -59,7 +64,6 @@ toc_label: "테스트 포스트"
 ## 코드 스니펫
 
 <br>
-<br>
 
 여기에는 코드 스니펫을 포함시킬 수 있습니다:
 
@@ -76,9 +80,8 @@ greet("Hittol")
 ## 이미지
 
 <br>
-<br>
 
-![image](/assets/images/ForTestPage.png){: .align-left}
+![image](/assets/images/ForTestPage.jpg){: .align-left}
 이것은 예시를 위한 사진입니다.<br>    
 왼쪽 정렬을 통해 사진을 배치했습니다.<br>
 다만 정렬 방법은 공간이 없을 시 레이아웃이 깨집니다.<br>
@@ -95,7 +98,7 @@ greet("Hittol")
 <br>
 <br>
 
-🌝 **<u>공지 사항</u>**
+🌝 **<u>공지 사항</u>**<br>
 이것은 테스트를 위한 페이지 입니다!
 {: .notice--primary}
 
