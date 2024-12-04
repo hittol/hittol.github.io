@@ -8,6 +8,8 @@ Tags:
 toc: true
 toc_sticky: true
 toc_label: "테스트 포스트"
+sidebar:
+    nav: "sidebar-category"
 ---
 <br>
 <br>
