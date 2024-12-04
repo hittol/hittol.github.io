@@ -104,7 +104,7 @@ greet("Hittol")
 <br>
 <br>
 <figure>
-   <img src="/assets/images/PostPage_02.jpg, width="600" height="300">
+   <img src="/assets/images/PostPage_02.jpg" width="600" height="300">
    <figcaption>markdown을 통해 사이즈를 조정한 사진입니다.</figcaption>
 </figure>
 <br>
