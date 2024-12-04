@@ -13,3 +13,12 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+sidebar-category:
+  - title: "Category"
+    children:
+      - title: "포스트"
+        url: "/Post"
+      - title: "Azure"
+        url:  "/Azure"
+      - title: "IT"
+        url:  "/IT"
