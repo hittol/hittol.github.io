@@ -97,11 +97,6 @@ greet("Hittol")
 <br>
 <br>
 <br>
-<figure>
-   <img src="/assets/images/PostPage_02.jpg" alt="" class="full">
-   <figcaption>전체 채우기로 사진을 조정했습니다. </figcaption>
-</figure>
-
 <br>
 <br>
 
