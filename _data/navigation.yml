@@ -13,16 +13,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-sidebar-category:
-  - title: "Cloud"
-    children:
-      - title: "Azure"
-        url: "/Azure"
-  - title: "Compute"
-    children:
-      - title: "Terraform"
-        url: "/Terraform"
-  - title: "ETC"
-    children:
-      - title: "포스트"
-        url: "/Post"
+# sidebar-category:
+#  - title: "Cloud"
+#    children:
+#     - title: "Azure"
+#        url: "/Azure"
+#  - title: "Compute"
+#    children:
+#      - title: "Terraform"
+#        url: "/Terraform"
+#  - title: "ETC"
+#    children:
+#      - title: "포스트"
+#        url: "/Post"
