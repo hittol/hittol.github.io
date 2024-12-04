@@ -3,7 +3,8 @@ title: "잡다한 글"
 layout: archive
 permalink: categories/sundries
 author_profile: true
-sidebar_main: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
