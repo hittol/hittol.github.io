@@ -27,8 +27,8 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hittol/hittol.github.io"
 date_format              : "%Y-%m-%d"
 #teaser                   : "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " "
+logo                     : "/assets/images/icon.png"
+masthead_title           : "Life is like a box of chocolates"
 breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
