@@ -29,31 +29,44 @@
   a[rel="permalink"] {
     position: static;
   }
+
+  &:hover img {
+    //transform: scale(1.1);
+  }
 }
 
+//홈 화면 "최근 포스트" font 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: $muted-text-color;
+  padding-left: 1px;
+  font-family: $myfont_title;
+  font-size: $type-size-3;
+  color: $text-color; 
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
+    //display: flex;
   }
 }
 
+//홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $myfont_grid_title;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 1.1em;//$type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
-    inset: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 
   a + a {
@@ -64,14 +77,20 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0;
     border-bottom: none;
+  }
+  .no_toc {
+    margin-top: 0;
   }
 }
 
+// home 포스트 글 설명
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 0.9em;//$type-size-6;
+  font-family: $myfont_a1;
 
   & + p {
     text-indent: 0;
@@ -82,44 +101,31 @@
   }
 }
 
+//category, all archive 타이틀 여백 삭제
+h2.archive__item-title.no_toc {
+  margin-top: 0;
+}
+
 .archive__item-teaser {
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
 
+  display: flex;
+  justify-content: center;
+
+  background-color: mix(rgb(122, 122, 122), $background-color, 10%);
+  backdrop-filter: blur(10px);
+  width: 100%;  //높이 비율 고정
+  max-height: 10em;
+  margin-bottom: 5px;
+
   img {
-    width: 100%;
+    margin: auto;
+    position: relative;  //absolute;
+    object-fit: fill;
   }
 }
-
-.archive__item-caption {
-  position: absolute;
-  bottom: 0;
-  inset-inline-end: 0;
-  margin: 0 auto;
-  padding: 2px 5px;
-  color: #fff;
-  font-family: $caption-font-family;
-  font-size: $type-size-8;
-  background: #000;
-  text-align: end;
-  z-index: 5;
-  opacity: 0.5;
-  border-radius: $border-radius 0 0 0;
-
-  @include breakpoint($large) {
-    padding: 5px 10px;
-  }
-
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
-/*
-   List view
-   ========================================================================== */
 
   .list__item {
     position: relative;
@@ -202,6 +208,44 @@
     color: #fff;
     text-decoration: none;
   }
+}
+
+/*
+   List view
+   ========================================================================== */
+//작성일, read time
+.list__item {
+  margin-top: 1em;
+
+  a {   //사이드바 카테고리 클릭 시 나열되는 타이틀 
+    font-family: $myfont_grid_title;
+    text-decoration: none;
+  }
+  .page__meta {
+    margin: 0 0 4px;
+    font-size: 0.9em;
+    font-family: $myfont_grid_title;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+
+.archive__item_tag {
+  margin-top: 1em;
+  
+    a {
+      //테그 클릭 시 나열되는 타이틀 
+      font-family: $myfont_grid_title;
+      text-decoration: none;
+    }
+  
+    .page__meta {
+      margin: 0 0 4px;
+      font-size: 0.9em;
+      font-family: $myfont_grid_title;
+      font-weight: bold;
+      padding-left: 5px; //추가
+    }
 }
 
 /*
