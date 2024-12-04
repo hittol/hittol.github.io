@@ -8,9 +8,8 @@ Tags:
 toc: true
 toc_sticky: true
 toc_label: "테스트 포스트"
-sidebar:
-    nav: "sidebar-category"
 ---
+
 <br>
 <br>
 이것은 **Minimal Mistakes** 테마를 사용한 Jekyll 블로그의 테스트 포스트입니다.<br>
