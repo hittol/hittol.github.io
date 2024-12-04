@@ -86,31 +86,31 @@ greet("Hittol")
 왼쪽 정렬을 통해 사진을 배치했습니다.<br>
 다만 정렬 방법은 공간이 없을 시 레이아웃이 깨집니다.<br>
 이미지 크기를 감안하여 글을 작성해주세요<br>
-   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>  
 
 ![image](/assets/images/PostPage_02.jpg){: .align-left}{: width="400" height="200"}
 markdown을 통해 사이즈를 조정한 사진입니다.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
