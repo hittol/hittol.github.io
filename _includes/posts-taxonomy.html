@@ -1,6 +1,6 @@
 {% assign items_max = 0 %}
 {% for item in include.taxonomies %}
-  {% if item[1].size > items_max and item[0] == 'categories' %}
+  {% if item[0] == 'categories' and item[1].size > items_max %}
     {% assign items_max = item[1].size %}
   {% endif %}
 {% endfor %}
@@ -8,7 +8,7 @@
 <ul class="taxonomy__index">
   {% for i in (1..items_max) reversed %}
     {% for item in include.taxonomies %}
-      {% if item[1].size == i and item[0] == 'categories' %}
+      {% if item[0] == 'categories' and item[1].size == i %}
         <li>
           <a href="#{{ item[0] | slugify }}">
             <strong>{{ item[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
@@ -22,11 +22,11 @@
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..items_max) reversed %}
   {% for taxonomy in include.taxonomies %}
-    {% if taxonomy[1].size == i and taxonomy[0] == 'categories' %}
+    {% if taxonomy[0] == 'categories' and taxonomy[1].size == i %}
       <section id="{{ taxonomy[0] | slugify }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ taxonomy[0] }}</h2>
         <div class="entries-{{ entries_layout }}">
-          {% for post in taxonomy.last %}
+          {% for post in taxonomy[1] %}
             {% include archive-single.html type=entries_layout %}
           {% endfor %}
         </div>
