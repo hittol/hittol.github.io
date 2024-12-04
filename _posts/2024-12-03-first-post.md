@@ -7,6 +7,7 @@ Tags:
   - Test , jekyll
 toc: true
 toc_sticky: true
+toc_label: "Minimal Mistakes 테스트 포스트"
 ---
 
 이것은 **Minimal Mistakes** 테마를 사용한 Jekyll 블로그의 테스트 포스트입니다. 
