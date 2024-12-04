@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Life is like a box of chocolates"
+title                    : "Odds and Ends"
 title_separator          : "-"
 subtitle                 : "My Dev Diary"
 name                     : "Hittol"
@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Hittol"
-  avatar           : "/assets/images/profile_icon.jpg"
+  avatar           : "/assets/images/propfile_01.jpg"
   bio              : "Lazy"
   location         : "Seoul,Korea"
   email            : "hittol@naver.com"
