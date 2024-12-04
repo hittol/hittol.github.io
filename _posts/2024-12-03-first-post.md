@@ -29,9 +29,8 @@ toc_label: "테스트 포스트"
 <br>
 이것은 테스트용 머리말입니다. 여기에는 간단한 소개나 중요한 내용을 요약할 수 있습니다.
 
-> "이 포스트는 다양한 블로그 기능을 테스트하는 데 목적이 있습니다."
-> --- Hittol
-{: .small}
+> "이 포스트는 다양한 블로그 기능을 테스트하는 데 목적이 있습니다."<br>
+> --- Hittol{: .small}
    
 <br>
 <br>
@@ -79,14 +78,17 @@ greet("Hittol")
 <br>
 <br>
 
-![image](/assets/images/ForTestPage.png)
-{: .align-left}
-이것은 예시를 위한 사진입니다.     
-왼쪽 정렬을 통해 사진을 배치했습니다.
+![image](/assets/images/ForTestPage.png){: .align-left}
+이것은 예시를 위한 사진입니다.<br>    
+왼쪽 정렬을 통해 사진을 배치했습니다.<br>
+다만 정렬 방법은 공간이 없을 시 레이아웃이 깨집니다.<br>
+이미지 크기를 감안하여 글을 작성해주세요<br>
    
 <br>
 <br>
-
+<br>
+<br>
+<br>
    
 ## 인용문
 
