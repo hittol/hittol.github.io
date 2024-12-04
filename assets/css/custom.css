@@ -17,7 +17,3 @@
   color: ##FFEFD5;        /* 링크 색상을 회색으로 변경 */
   text-decoration: none;  /* 링크의 밑줄 제거 */
 }
-
-.nav__sub-link:hover {
-  color: #ffffff; /* 마우스를 올렸을 때 링크 색상 변경 */
-}
