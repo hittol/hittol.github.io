@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: archive
 author_profile: true
 sidebar_main: true
+entries_layout: list
 
 header:
   overlay_image: /assets/images/head-baner_02.jpg
@@ -9,3 +10,9 @@ header:
 
 ---
 
+<div class="grid__wrapper">
+    {% for post in paginator.posts %}
+    {% include archive-single3.html type="list" %}
+    {% endfor %}
+</div>
+{% include paginator.html %} 
