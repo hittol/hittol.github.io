@@ -1,5 +1,6 @@
 ---
 title: "Minimal Mistakes 테스트 포스트"
+excerpt: "Minimal Mistakes 테마를 사용한 Jekyll 테스트 포스트"
 date: 2024-12-03
 categories:
   - Sundries
