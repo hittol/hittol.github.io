@@ -104,7 +104,7 @@ greet("Hittol")
 <br>
 <br>
 
-![image](/assets/images/PostPage_02.jpg){: .align-left}{: width="600" height="300"}
+<img src="/assets/images/PostPage_02.jpg, width="600" height="300">
 markdown을 통해 사이즈를 조정한 사진입니다.
 
 <br>
