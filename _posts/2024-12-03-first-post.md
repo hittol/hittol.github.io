@@ -83,8 +83,9 @@ greet("Hittol")
 ## 이미지
 
 <br>
-
-![image](/assets/images/ForTestPage01.jpg){: .align-left}
+<figure>
+   <img src="/assets/images/ForTestPage01.jpg" align='left'/>
+</figure>
 이것은 예시를 위한 사진입니다.<br>    
 왼쪽 정렬을 통해 사진을 배치했습니다.<br>
 다만 정렬 방법은 공간이 없을 시 레이아웃이 깨집니다.<br>
@@ -104,23 +105,13 @@ greet("Hittol")
 <br>
 <br>
 <figure>
-   <img src="/assets/images/PostPage_02.jpg" width="600" height="300">
-   <figcaption>markdown을 통해 사이즈를 조정한 사진입니다.</figcaption>
+   <img src="/assets/images/PostPage_02.jpg" width="600" height="300" align='center'/>
+   <figcaption> markdown을 통해 사이즈를 조정한 사진입니다. </figcaption>
 </figure>
+
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>  
-<br>
-<br>
+
 
 ## 인용문
 
