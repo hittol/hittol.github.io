@@ -14,11 +14,15 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
-  - title: "Category"
+  - title: "Cloud"
+    children:
+      - title: "Azure"
+        url: "/Azure"
+  - title: "Compute"
+    children:
+      - title: "Terraform"
+        url: "/Terraform"
+  - title: "ETC"
     children:
       - title: "포스트"
         url: "/Post"
-      - title: "Azure"
-        url:  "/Azure"
-      - title: "IT"
-        url:  "/IT"
