@@ -2,6 +2,11 @@
 
 {% assign sum = site.posts | size %}
 
+<head>
+  <!-- 기존 메타 태그들과 CSS 파일들 -->
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+</head>
+
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
@@ -18,14 +23,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "vpngateway" %}
-                        <li><a href="/categories/vpngateway" class="">VPN Gateway ({{category[1].size}})</a></li>
+                        <li><a href="/categories/vpngateway" class="nav__sub-link">VPN Gateway ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "image" %}
-                        <li><a href="/categories/image" class="">이미지 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/image" class="nav__sub-link">이미지 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -33,14 +38,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Terraform" %}
-                        <li><a href="/categories/terraform" class="">테라폼 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/terraform" class="nav__sub-link">테라폼 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "window" %}
-                        <li><a href="/categories/window" class="">Windows ({{category[1].size}})</a></li>
+                        <li><a href="/categories/window" class="nav__sub-link">Windows ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -48,7 +53,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Sundries" %}
-                        <li><a href="/categories/Sundries" class="">잡다한 글 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Sundries" class="nav__sub-link">잡다한 글 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
