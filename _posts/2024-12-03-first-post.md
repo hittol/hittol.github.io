@@ -101,10 +101,8 @@ greet("Hittol")
 <br>
 <br>
 <br>
-<figure style="width: 300px" class="align-left">
-  <img src="/assets/images/PostPage_02.jpg" alt="">
-  <figcaption>Markup을 통해 사이즈를 조정한 사진입니다.</figcaption>
-</figure>
+![image](/assets/images/PostPage_02.jpg){: .align-left}{: width="400" height="200"}
+markdown을 통해 사이즈를 조정한 사진입니다.
 <br>
 <br>
 <br>
