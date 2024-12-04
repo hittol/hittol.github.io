@@ -1,5 +1,5 @@
 ---
-title: "이미"
+title: "이미지"
 layout: archive
 permalink: /categories/image
 author_profile: true
