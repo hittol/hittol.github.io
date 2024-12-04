@@ -1,0 +1,13 @@
+/* /assets/css/custom.css 파일 */
+
+.nav__items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__sub-title {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
