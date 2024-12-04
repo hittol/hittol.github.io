@@ -8,7 +8,7 @@
 
 .nav__sub-title {
   font-weight: bold;  /* 텍스트의 굵기 */
-  margin-top: 15px;   /* 외부 여백을 추가 */
+  margin-top: 7px;   /* 외부 여백을 추가 */
   color: #fff;        /* 글씨 색상을 흰색으로 변경 */
-  font-size: 1.2em;   /* 글씨 크기를 더 키움 */
+  font-size: 1.1em;   /* 글씨 크기를 더 키움 */
 }
