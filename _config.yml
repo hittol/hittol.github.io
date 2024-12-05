@@ -316,11 +316,14 @@ comments:
   provider               : "giscus"
   giscus:
     repo_id              : "R_kgDONV1CNg"
-    category_name        : "Announcements"
+    category             : "Announcements"
     category_id          : "DIC_kwDONV1CNs4Ck7aR"
-    discussion_term      : "pathname"
+    mapping              : "pathname"
+    emit-metadata        : "0"
+    input-position       : "bottom"
     reactions_enabled    : "1"
     theme                : "preferred_color_scheme"
+    crossorigin          : "anonymous"
     
 collections:
   posts:
