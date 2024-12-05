@@ -2,11 +2,6 @@
 
 {% assign sum = site.posts | size %}
 
-<head>
-  <!-- 기존 메타 태그들과 CSS 파일들 -->
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
-</head>
-
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
