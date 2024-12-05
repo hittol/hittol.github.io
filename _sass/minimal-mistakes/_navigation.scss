@@ -438,13 +438,18 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   margin-left: -10px; // 더 왼쪽으로 이동하려면 음수 값을 사용
   color: #fff;  // 원하는 스타일 추가
   padding: 10px;  // 원하는 스타일 추가
 
   a {
     color: inherit;
+    color: mix(#fff, #ccc, 80%);
+  
+    &:hover {
+       text-decoration: underline;
+     }
   }
 
   .active {
@@ -496,7 +501,7 @@
   font-family: $sans-serif-narrow;
   font-size: 1.1rem;  // custom.css에서 가져온 스타일
   // font-weight: bold;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border-bottom: 1px solid #ccc;  // custom.css에서 가져온 스타일
 }
 
