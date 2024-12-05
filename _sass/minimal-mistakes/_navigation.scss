@@ -444,8 +444,8 @@
   padding: 10px;  // 원하는 스타일 추가
 
   a {
-    color: inherit;
-    color: mix(#fff, #ccc, 80%);
+    // color: inherit;
+    color: #e3c8a3;
   
     &:hover {
        text-decoration: underline;
