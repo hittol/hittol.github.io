@@ -312,10 +312,15 @@ compress_html:
   ignore:
     envs: development
 
-# comments:
-#  provider               : "disqus"
-#  disqus:
-#    shortname            : hittol-github-io
+comments:
+  provider               : "giscus"
+  giscus:
+    repo_id              : "R_kgDONV1CNg"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDONV1CNs4Ck7aR"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1"
+    theme                : "preferred_color_scheme"
     
 collections:
   posts:
