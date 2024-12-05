@@ -439,15 +439,12 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  color: #fff;  // 원하는 스타일 추가
+  background-color: #333;  // 원하는 스타일 추가
+  padding: 10px;  // 원하는 스타일 추가
 
   a {
     color: inherit;
-    font-size: $type-size-3;
-    color: mix(#fff,$primary-color,80%);
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   .active {
@@ -496,9 +493,11 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-size: $type-size-3;
-  color: mix(#fff,$primary-color,35%);
-  border-bottom: 1px solid $border-color;
+  font-family: $sans-serif-narrow;
+  font-size: 1.1rem;  // custom.css에서 가져온 스타일
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;  // custom.css에서 가져온 스타일
 }
 
 /*
