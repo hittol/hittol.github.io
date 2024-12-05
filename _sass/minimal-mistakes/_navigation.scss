@@ -438,8 +438,8 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.1rem;
-  margin-left: -5px; // 더 왼쪽으로 이동하려면 음수 값을 사용
+  font-size: 1.05rem;
+  margin-left: -10px; // 더 왼쪽으로 이동하려면 음수 값을 사용
   color: #fff;  // 원하는 스타일 추가
   padding: 10px;  // 원하는 스타일 추가
 
@@ -494,8 +494,8 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: 1.1rem;  // custom.css에서 가져온 스타일
-  font-weight: bold;
+  font-size: 1.05rem;  // custom.css에서 가져온 스타일
+  // font-weight: bold;
   text-transform: uppercase;
   border-bottom: 2px solid #ccc;  // custom.css에서 가져온 스타일
 }
