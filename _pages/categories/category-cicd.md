@@ -1,7 +1,7 @@
 ---
 title: "CI/CD"
 layout: archive
-permalink: categories/CICD"
+permalink: /categories/CICD
 author_profile: true
 sidebar_main: true
 ---
