@@ -10,14 +10,7 @@ toc_label: "AzureDevOps"
 sidebar_main: true
 published: true
 header:
-   teaser: /assets/images/head_baner.jpg
----
-
-
-# Azure DevOps Learning --- ( 1 )
-
----
-
+   teaser: /assets/images/azure_baner.jpg
 ---
 
 ## DevOps
