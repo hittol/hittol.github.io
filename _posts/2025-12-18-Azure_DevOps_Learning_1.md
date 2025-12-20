@@ -2,12 +2,13 @@
 title: "Azure DevOps Learning-(1)"
 excerpt: "Azure DevOps 기본 개념 정리"
 date: 2025-12-18
-categories: [Sundries]
-Tags: [Sundries , Test]
+categories: [CICD]
+Tags: [CI/CD , AzureDevOps]
 toc: true
 toc_sticky: true
 toc_label: "AzureDevOps"
 sidebar_main: true
+published: true
 header:
    teaser: /assets/images/head_baner.jpg
 ---

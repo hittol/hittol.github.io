@@ -29,6 +29,7 @@ date_format              : "%Y-%m-%d"
 #teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/icon.png"
 masthead_title           : "Life is like a box of chocolates"
+future                   : true # 25/12/21 solving update page
 breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
