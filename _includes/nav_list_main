@@ -32,7 +32,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CICD" %}
-                        <li><a href="/categories/CICD" class="nav__sub-link">CI/CD ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Cicd" class="nav__sub-link">CI/CD ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
