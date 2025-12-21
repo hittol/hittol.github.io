@@ -24,8 +24,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "image" %}
-                        <li><a href="/categories/image" class="nav__sub-link">이미지 ({{category[1].size}})</a></li>
+                    {% if category[0] == "AVD" %}
+                        <li><a href="/categories/AVD" class="nav__sub-link">AVD ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
