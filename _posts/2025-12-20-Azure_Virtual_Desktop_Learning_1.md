@@ -10,7 +10,7 @@ toc_label: "AzureVirtualDesktop"
 sidebar_main: true
 published: true
 header:
-   teaser: /assets/images/azure_baner.jpg
+   teaser: /assets/images/avd_baner.jpg
 ---
 
 ## Azure Virtual Desktop

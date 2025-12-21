@@ -10,7 +10,7 @@ toc_label: "AzureDevOps"
 sidebar_main: true
 published: true
 header:
-   teaser: /assets/images/azure_baner.jpg
+   teaser: /assets/images/devops_baner.jpg
 ---
 
 ## DevOps
