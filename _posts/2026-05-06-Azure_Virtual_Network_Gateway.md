@@ -1,12 +1,12 @@
 ---
-title: "Azure VPN Gateway"
-excerpt: "Azure VPN Gateway 기본 정리"
+title: "Azure VPN 개념 및 문제진단"
+excerpt: "Azure VPN Gateway 정책,Troubleshooting 정리"
 date: 2026-05-06
 categories: [VPN]
 Tags: [VPN]
 toc: true
 toc_sticky: true
-toc_label: "AzureVirtualNetworkGateway"
+toc_label: "Azure VPNGW 정리"
 sidebar_main: true
 published: true
 header:
