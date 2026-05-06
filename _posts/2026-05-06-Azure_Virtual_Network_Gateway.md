@@ -1,9 +1,9 @@
 ---
-title: "Azure Virtual Network Gateway"
-excerpt: "Azure VPNGateway 정리"
+title: "Azure VPN Gateway"
+excerpt: "Azure VPN Gateway 기본 정리"
 date: 2026-05-06
-categories: [VPN Gateway]
-Tags: [VPN Gateway]
+categories: [VPN]
+Tags: [VPN]
 toc: true
 toc_sticky: true
 toc_label: "AzureVirtualNetworkGateway"
